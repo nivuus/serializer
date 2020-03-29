@@ -1,10 +1,7 @@
 {
   "name": "@nivuus/serializer",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -12,7 +9,6 @@
   "author": "Maxime Allanic <maxime@allanic.me> (https://allanic.me)",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.15"
   },
   "devDependencies": {
     "mocha": "^7.1.1"
