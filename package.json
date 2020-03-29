@@ -1,7 +1,10 @@
 {
   "name": "@nivuus/serializer",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -12,7 +15,6 @@
     "lodash": "^4.17.15"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
     "mocha": "^7.1.1"
   }
 }
